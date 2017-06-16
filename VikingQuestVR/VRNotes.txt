@@ -6,3 +6,4 @@ Some Points
 -NavMesh Computationally heavy, effects in VR
 -Camera perspective in Mobile vs VR
 -Triggers and Has Exit Time
+-UI elements and Look at Target
