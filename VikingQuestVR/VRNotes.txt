@@ -3,4 +3,6 @@ Arvind Neelakantan - arvind@unity3d.com , @unityarvind
 Some Points
 
 -Use of Capsule Collider instead of Polygon Collider
--NaveMesh Computationally heavy, effects in VR
+-NavMesh Computationally heavy, effects in VR
+-Camera perspective in Mobile vs VR
+-Triggers and Has Exit Time
