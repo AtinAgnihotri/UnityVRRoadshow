@@ -3448,6 +3448,49 @@ Transform:
   m_PrefabParentObject: {fileID: 4000010206422874, guid: 988f7fa71cb60ba47898e84ea9cd786e,
     type: 2}
   m_PrefabInternal: {fileID: 1797101407}
+--- !u!1 &1212061282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1212061284}
+  - component: {fileID: 1212061283}
+  m_Layer: 0
+  m_Name: CameraControlRig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1212061283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1212061282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f406e4dc0a2609b43963a0963b39dfdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MouseControl: 1
+  m_Speed: 5
+--- !u!4 &1212061284
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1212061282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.9231054, y: 6.23719, z: -9.215326}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1475656319}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1217072473
 Prefab:
   m_ObjectHideFlags: 0
@@ -3995,12 +4038,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475656314}
-  m_LocalRotation: {x: 0.30838478, y: 0.0062784557, z: -0.0020363128, w: 0.9512388}
-  m_LocalPosition: {x: -1.9231054, y: 6.23719, z: -9.215326}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1212061284}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 35, y: 0, z: 0}
 --- !u!1001 &1490518226
 Prefab:
